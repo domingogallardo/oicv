@@ -102,7 +102,7 @@ izquierda.
 
 Cuando accedes a esa opción puedes subir tu programa y un fichero de entrada.
 
-<img src="imagenes/testing.png" width="700px"/>
+<img style="border: 10px solid;" src="imagenes/testing.png" width="700px"/>
 
 Una vez subidos ambos ficheros, el programa se compila y se ejecuta en
 el servidor. Puedes descargarte entonces el resultado pulsando en el
