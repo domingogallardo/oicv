@@ -29,21 +29,22 @@ actualizar), en los que estará disponible un concurso de prueba:
 
 ### Login ###
 
-Recibirás un correo electrónico en el que se informará de vuestro
+Recibirás un correo electrónico en el que se informará de tu
 usuario y contraseña para entrar en el concurso de prueba.
 
 Pantalla de login:
 
 <img src="imagenes/login.png" width="700px"/>
 
+### Ejercicios ###
+
 Una vez en el concurso de prueba verás una pantalla inicial con un
 resumen de los distintos ejercicios. En el menú izquierdo encontrarás
-enlaces al enunciado y a la página de envío de los ejercicios. También
-a la página principal, a una página donde poder enviar preguntas a los
-organizadores y unos enlaces con una breve documentación y una página
-de prueba, en la que podrás subir tus programas y comprobar su salida.
-
-### Ejercicios ###
+enlaces al enunciado y a la página de envío de tu programa para cada
+ejercicio. También verás enlaces a la página principal, a una página
+donde poder enviar preguntas a los organizadores y unos enlaces con
+una breve documentación y una página de prueba, en la que podrás subir
+tus programas y comprobar su salida.
 
 En el caso de la imagen sólo hay un ejercicio denominado `Primos`.
 
