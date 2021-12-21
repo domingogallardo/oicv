@@ -108,4 +108,4 @@ Una vez subidos ambos ficheros, el programa se compila y se ejecuta en
 el servidor. Puedes descargarte entonces el resultado pulsando en el
 botón `Descargar`.
 
-<img src="imagenes/result-testing.png" width="800px"/>
+<img src="imagenes/result-testing.png" width="900px"/>
