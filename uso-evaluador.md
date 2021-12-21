@@ -48,19 +48,19 @@ tus programas y comprobar su salida.
 
 En el caso de la imagen sólo hay un ejercicio denominado `Primos`.
 
-<img src="imagenes/pagina-inicial.png" width="700px"/>
+<img src="imagenes/pagina-inicial.png" width="800px"/>
 
 Pinchando en el enunciado entrarás en la siguiente pantalla en la que
 podrás descargar un fichero PDF con el enunciado del problema. Los
 problemas tendrán varios apartados con una puntuación cada uno de ellos.
 
-<img src="imagenes/enunciado.png" width="700px"/>
+<img src="imagenes/enunciado.png" width="800px"/>
 
 Bajo el enunciado aparece unos detalles sobre el tiempo y la memoria
 máxima permitida en la ejecución del programa, así como los comandos
 que se lanzarán en el servidor para compilar los programas.
 
-<img src="imagenes/detalles-enunciado.png" width="700px"/>
+<img src="imagenes/detalles-enunciado.png" width="800px"/>
 
 ### Envío de tu programa ###
 
@@ -68,7 +68,7 @@ Pinchando en la opción `Envíos` del enunciado accedes a la página para
 subir el fichero con el código fuente que resuelve el ejercicio. En
 este caso se muestra cómo se sube el fichero `primos.py`.
 
-<img src="imagenes/subir-programa.png" width="700px"/>
+<img src="imagenes/subir-programa.png" width="800px"/>
 
 ### Puntuación ###
 
@@ -78,7 +78,7 @@ pantalla.
 
 Puedes pinchar en la opción `detalles` para ver los detalles de la puntuación.
 
-<img src="imagenes/puntuacion-1.png" width="700px"/>
+<img src="imagenes/puntuacion-1.png" width="800px"/>
 
 En este caso el ejercicio tiene dos apartados. El primero valorado en
 30 puntos y el segundo en 70. Para conseguir la puntuación del
@@ -87,12 +87,12 @@ este caso se falla en el segundo test del segundo apartado, por lo que
 no se obtienen los 70 puntos. Sí que se obtienen los 30 puntos del
 primer apartado.
 
-<img src="imagenes/detalles-puntuacion.png" width="700px"/>
+<img src="imagenes/detalles-puntuacion.png" width="800px"/>
 
 Puedes enviar todas las versiones que desees del programa. Tu
 puntuación en el ejercicio será la máxima de todas las versiones que envíes.
 
-<img src="imagenes/puntuacion-2.png" width="700px"/>
+<img src="imagenes/puntuacion-2.png" width="800px"/>
 
 ### Testing ###
 
@@ -102,10 +102,10 @@ izquierda.
 
 Cuando accedes a esa opción puedes subir tu programa y un fichero de entrada.
 
-<img src="imagenes/testing.png" width="700px" />
+<img src="imagenes/testing.png" width="800px" />
 
 Una vez subidos ambos ficheros, el programa se compila y se ejecuta en
 el servidor. Puedes descargarte entonces el resultado pulsando en el
 botón `Descargar`.
 
-<img src="imagenes/result-testing.png" width="900px"/>
+<img src="imagenes/result-testing.png" width="800px"/>
