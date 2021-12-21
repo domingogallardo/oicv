@@ -26,11 +26,11 @@ del siguiente software.
 
 <img src="imagenes/subir-programa.png" width="700px"/>
 
-<img src="imagenes/puntuacion1.png" width="700px"/>
+<img src="imagenes/puntuacion-1.png" width="700px"/>
 
 <img src="imagenes/detalles-puntuacion.png" width="700px"/>
 
-<img src="imagenes/puntuacion2.png" width="700px"/>
+<img src="imagenes/puntuacion-2.png" width="700px"/>
 
 <img src="imagenes/testing.png" width="700px"/>
 
