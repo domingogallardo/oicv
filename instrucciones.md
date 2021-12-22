@@ -51,7 +51,7 @@ Una vez en el concurso de prueba verás una pantalla inicial con un
 resumen de los distintos ejercicios. En el menú izquierdo encontrarás
 enlaces al enunciado y a la página de envío de tu programa para cada
 ejercicio. También verás enlaces a la página principal, a una página
-donde poder enviar preguntas a los organizadores y unos enlaces con
+donde poder enviar preguntas a los organizadores, unos enlaces con
 una breve documentación y una página de prueba, en la que podrás subir
 tus programas y comprobar su salida.
 
@@ -114,7 +114,6 @@ Cuando accedes a esa opción puedes subir tu programa y un fichero de entrada.
 <img src="imagenes/testing.png" width="800px" />
 
 Una vez subidos ambos ficheros, el programa se compila y se ejecuta en
-el servidor. Puedes descargarte entonces el resultado pulsando en el
-botón `Descargar`.
+el servidor. Puedes comprobar el resultado descargándolo con el botón `Descargar`.
 
 <img src="imagenes/result-testing.png" width="800px"/>
