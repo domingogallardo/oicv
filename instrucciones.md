@@ -1,4 +1,4 @@
-# OICV 2022 - Olimipiada Informàtica Comunitat Valencia 2022 #
+# OICV 2022 - Olimpìada Informàtica Comunitat Valencia 2022 #
 
 ## Ejercicios a resolver en la OICV 2022 ##
 
@@ -29,11 +29,11 @@ En el concurso se utilizará un servidor de evaluación que comprobará
 la corrección de los programas y proporcionará las puntuaciones de
 cada ejercicio.
 
-Podrás probar el evaluador en los siguientes enlaces (pendiente de
-actualizar), en los que estará disponible un concurso de prueba:
+Podrás probar el evaluador en los siguientes enlaces en los que estará
+disponible un concurso de prueba:
 
-- [Evaluador de la sede de Alicante]()
-- [Evaluador de la sede de Valencia]()
+- [Evaluador de la sede de Alicante](https://oicv.epsua.es/)
+- [Evaluador de la sede de Valencia](https://oicv.org/valencia/juez)
 
 
 ### Login ###
