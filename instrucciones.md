@@ -32,7 +32,7 @@ cada ejercicio.
 Podrás probar el evaluador en los siguientes enlaces en los que estará
 disponible un concurso de prueba:
 
-- [Evaluador de la sede de Alicante](https://oicv.epsua.es/)
+- [Evaluador de la sede de Alicante](https://oicv.eps.ua.es/)
 - [Evaluador de la sede de Valencia](https://oicv.org/valencia/juez)
 
 
