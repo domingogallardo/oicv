@@ -1,4 +1,4 @@
-# OICV 2022 - Olimipiada Informàtica Comunitat Valencia 2022#
+# OICV 2022 - Olimipiada Informàtica Comunitat Valencia 2022 #
 
 ## Ejercicios a resolver en la OICV ##
 
