@@ -179,36 +179,37 @@ Al estar en marcha el `cmsResourceService`, éste reinicia el servicio de proxy
 y se vuelven a volcar todos los datos de la competición actual en el directorio
 `/var/local/lib/cms/ranking`.
 
-## Importar usuarios ##
+## Registrar y eliminar usuarios ##
 
-Comando:
+En la carpeta `utils` hay comandos para registrar, añadir a concurso y
+eliminar usuarios.
+
+El fichero de usuarios debe llamarse `users.json` es un fichero JSON
+con todos los usuarios:
+
+**Fichero `users.json`**:
 
 ```
-$ cmsImportUser -L italy_yaml -c 1 --all
+[
+{"nombre": "Uno", "apellidos": "Uno", "user": "1111"},
+{"nombre": "Dos", "apellidos": "Dos", "user": "2222"}
+]
 ```
 
-El fichero con los usuarios se debe llamar `contest.yaml` y tiene el siguiente formato:
+Para registrar usuarios:
 
 ```
-nome_breve: testcontest
-nome: "Test contest"
+$ ./registerUsers.sh <pass>
+```
 
-problemi:
-  - testtask
+Para añadir usuarios a un concurso:
 
-# start: Monday, January 1, 2018 12:00:00 PM (GMT)
-inizio: 1514808000
-# end:  Friday, January 1, 2100 12:00:00 PM (GMT)
-fine: 4102488000
+```
+$ ./addParticipationUsers.sh <id-concurso>
+```
 
-utenti:
-- username: 'u1'
-  password: 'aaa'
-- username: 'u2'
-  password: 'bbb'
-- username: 'u3'
-  password: 'ccc'
-- username: 'u4'
-  password: 'ddd'
-- username: 'u5'
-  password: 'eee'
+Para borrar usuarios:
+
+```
+$ ./removeUsers.sh
+```

@@ -1,4 +1,4 @@
 [
-    {"nombre": "Uno", "apellidos": "Uno", "user": "1111", "pass": "1111", "team": "", "hidden": "false" },
-    {"nombre": "Dos", "apellidos": "Dos", "user": "2222", "pass": "2222", "team": "", "hidden": "false" }
+{"nombre": "Uno", "apellidos": "Uno", "user": "1111"},
+{"nombre": "Dos", "apellidos": "Dos", "user": "2222"}
 ]
