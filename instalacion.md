@@ -65,6 +65,40 @@ $ sudo pip3 install -r requirements.txt
 $ sudo python3 setup.py install
 ```
 
+- Nos aseguramos de que el encoding de Postgres es UTF:
+
+```
+$ sudo su - postgres
+$ psql
+psql (10.19 (Ubuntu 10.19-0ubuntu0.18.04.1))
+Type "help" for help.
+
+postgres=# SHOW SERVER_ENCODING;
+ server_encoding 
+-----------------
+ UTF8
+(1 row)
+```
+
+- Si no fuera UTF8 tendríamos que ejecutar los siguientes comandos
+  para configurar el `template1` que se usa para crear nuevas bases de
+  datos (<https://www.shubhamdipt.com/blog/how-to-change-postgresql-database-encoding-to-utf8/>)
+  
+```
+$ sudo su - postgres
+$ psql
+psql (10.19 (Ubuntu 10.19-0ubuntu0.18.04.1))
+Type "help" for help.
+
+postgres=# UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
+postgres=# DROP DATABASE template1;
+postgres=# CREATE DATABASE template1 WITH TEMPLATE = template0 ENCODING = 'UTF8';
+postgres=# UPDATE pg_database SET datistemplate = TRUE WHERE datname = 'template1';
+postgres=# \c template1;
+You are now connected to database "template1" as user "postgres".
+template1=# VACUUM FREEZE;
+```
+
 - Configuramos la base de datos Postgres:
 
 ```
