@@ -181,7 +181,7 @@ y se vuelven a volcar todos los datos de la competición actual en el directorio
 
 ## Registrar y eliminar usuarios ##
 
-En la carpeta `utils` hay comandos para registrar, añadir a concurso y
+En la carpeta `utils` hay scripts para registrar, añadir a concurso y
 eliminar usuarios.
 
 El fichero de usuarios debe llamarse `users.json` es un fichero JSON
@@ -213,3 +213,12 @@ Para borrar usuarios:
 ```
 $ ./removeUsers.sh
 ```
+
+El fichero JSON se puede generar fácilmente a partir de una [hoja de
+cálculo
+Google](https://docs.google.com/spreadsheets/d/1wPWcGEQv_jDdc3CdhmL9e1PPl9U7iFo8ypeTiTHscy8/edit?usp=sharing).
+
+Los scripts y la hoja de cálculo están adaptados del repositorio
+[cms-utils](https://github.com/olimpiada-informatica/cms-utils) de la
+olimpiada informática española.
+
