@@ -11,5 +11,5 @@ _jq() {
 }
 
 for row in $(cat 'users.json' | jq -r '.[] | @base64'); do
-   cmsAddUser -t Europe/Madrid -p $1 $(_jq '.nombre') $(_jq '.apellidos') $(_jq '.user') 
+    cmsAddUser -t Europe/Madrid -p $1 "$(_jq '.nombre')" "$(_jq '.apellidos')" "$(_jq '.user')"
 done
