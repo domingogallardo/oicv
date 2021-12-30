@@ -184,19 +184,16 @@ y se vuelven a volcar todos los datos de la competición actual en el directorio
 En la carpeta `utils` hay scripts para registrar, añadir a concurso y
 eliminar usuarios.
 
-El fichero de usuarios debe llamarse `users.json` es un fichero JSON
-con todos los usuarios:
+El fichero de usuarios debe llamarse `users.json` y debe contener
+todos los usuarios a añadir en formato JSON:
 
 **Fichero `users.json`**:
 
 ```
-[
-{"nombre": "Uno", "apellidos": "Uno", "user": "1111"},
-{"nombre": "Dos", "apellidos": "Dos", "user": "2222"}
-]
+[{"nombre": "Uno", "apellidos": "Uno", "user": "1111"},{"nombre": "Dos", "apellidos": "Dos", "user": "2222"}]
 ```
 
-Para registrar usuarios:
+Para registrar usuarios (todos los usuarios con el mismo password `<pass>`):
 
 ```
 $ ./registerUsers.sh <pass>
