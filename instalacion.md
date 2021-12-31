@@ -253,3 +253,44 @@ Los scripts y la hoja de cálculo están adaptados del repositorio
 [cms-utils](https://github.com/olimpiada-informatica/cms-utils) de la
 olimpiada informática española.
 
+## Exportar e importar concurso ##
+
+Los comandos para exportar e importar concursos:
+
+```
+$ cmsDumpExporter -h (muestra ayuda)
+$ cmsDumpImporter -h
+```
+
+Las opciones son las siguientes:
+
+```
+usage: cmsDumpExporter [-h] [-c contest_id [contest_id ...]] [-f | -F] [-G]
+                       [-S] [-U] [-P]
+                       [export_target]
+
+Exporter of CMS data.
+
+positional arguments:
+  export_target         target directory or archive for export
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c contest_id [contest_id ...], --contest-ids contest_id [contest_id ...]
+                        id of contest to export
+  -f, --files           only export files, ignore database structure
+  -F, --no-files        only export database structure, ignore files
+  -G, --no-generated    don't export data and files that can be automatically
+                        generated
+  -S, --no-submissions  don't export submissions
+  -U, --no-user-tests   don't export user tests
+  -P, --no-print-jobs   don't export print jobs
+```
+
+Por ejemplo, el comando:
+
+```
+$ cmsDumpExporter -c 1
+```
+
+exporta el concurso 1 en el directorio actual (en el fichero `dump_2021-12-17.tar.gz`).
