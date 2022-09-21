@@ -1,8 +1,8 @@
-# OICV 2022 - Olimpíada Informàtica Comunitat Valenciana 2022 #
+# OICV 2023 - Olimpíada Informàtica Comunitat Valenciana 2023 #
 
-## Ejercicios a resolver en la OICV 2022 ##
+## Ejercicios a resolver en la OICV 2023 ##
 
-En la OICV 2022 tendrás que resolver tres ejercicios de programación
+En la OICV 2023 tendrás que resolver ejercicios de programación
 en uno de los lenguajes del concurso (C, C++, Python 3 o
 Java). Deberás leer un fichero de entrada, procesarlo e imprimir la
 solución al problema.
