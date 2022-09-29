@@ -7,7 +7,7 @@ en uno de los lenguajes del concurso (C, C++, Python 3 o
 Java). Deberás leer un fichero de entrada, procesarlo e imprimir la
 solución al problema.
 
-Puedes ver un ejemplo del formato de los ejercicios en [este enlace](./primos.pdf).
+Puedes ver un ejemplo del formato de los ejercicios en [este enlace](./saludo.pdf).
 
 ## Software disponible en el concurso ##
 
