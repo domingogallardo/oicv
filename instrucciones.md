@@ -2,10 +2,11 @@
 
 ## Ejercicios a resolver en la OICV 2023 ##
 
-En la OICV 2023 tendrás que resolver ejercicios de programación
-en uno de los lenguajes del concurso (C, C++, Python 3 o
-Java). Deberás leer un fichero de entrada, procesarlo e imprimir la
-solución al problema.
+En la OICV 2023 tendrás que resolver ejercicios de programación en uno
+de los lenguajes del concurso (C, C++, Python 3 o Java). En todos los
+ejercicios deberás leer unos datos de la entrada estándar, resolver el
+problema indicado e imprimir la solución siguiendo el formato
+establecido.
 
 Puedes ver un ejemplo del formato de los ejercicios en [este enlace](./saludo.pdf).
 
