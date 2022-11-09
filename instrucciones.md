@@ -8,6 +8,15 @@ ejercicios deberás leer unos datos de la entrada estándar, resolver el
 problema indicado e imprimir la solución siguiendo el formato
 establecido.
 
+Los ejercicios tienen diferentes apartados, cada uno con una
+puntuación determinada. La suma de todos los apartados de cada
+ejercicio es de 100 puntos.
+
+La puntuación final de un participante es la suma de todos los
+apartados resueltos correctamente. El ganador del concurso será el
+que mayor puntuación obtenga. En caso de empate, será el primero en
+terminar los ejercicios.
+
 Puedes ver un ejemplo del formato de los ejercicios en [este enlace](./saludo.pdf).
 
 ## Software disponible en el concurso ##
