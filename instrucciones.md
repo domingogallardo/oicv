@@ -6,13 +6,18 @@ En la OICV 2023 tendrás que resolver ejercicios de programación en uno
 de los lenguajes del concurso (C, C++, Python 3 o Java). En todos los
 ejercicios deberás leer unos datos de la entrada estándar, resolver el
 problema indicado e imprimir la solución siguiendo el formato
-establecido.
+establecido. 
 
-Los ejercicios tienen diferentes apartados, cada uno con una
+En general, a no ser que especifique lo contrario, no debes buscar que
+el algoritmo para resolver el problema sea óptimo; solo que los
+resultados sean los correctos. Tampoco tendrás que tratar con errores
+en la entrada, ya que todos los casos de prueba serán correctos.
+
+Los ejercicios tendrán diferentes apartados, cada uno con una
 puntuación determinada. La suma de todos los apartados de cada
-ejercicio es de 100 puntos.
+ejercicio será de 100 puntos.
 
-La puntuación final de un participante es la suma de todos los
+La puntuación final de un participante será la suma de todos los
 apartados resueltos correctamente. El ganador del concurso será el
 que mayor puntuación obtenga. En caso de empate, será el primero en
 terminar los ejercicios.
