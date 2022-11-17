@@ -1,1 +1,1 @@
-# oicv2022
+# Olimpiada Informática de la Comunidad Valenciana
