@@ -260,6 +260,15 @@ Los scripts y la hoja de cálculo están adaptados del repositorio
 [cms-utils](https://github.com/olimpiada-informatica/cms-utils) de la
 olimpiada informática española.
 
+## Borrar todos los datos
+
+Para borrar todos los datos (concursos, usuarios, etc.)
+
+```
+$ cmsDropDB
+$ cmsInitDB
+```
+
 ## Exportar e importar concurso ##
 
 Los comandos para exportar e importar concursos:
@@ -301,3 +310,4 @@ $ cmsDumpExporter -c 1
 ```
 
 exporta el concurso con el identificador 1 en el directorio actual (en el fichero `dump_2021-12-17.tar.gz`).
+
