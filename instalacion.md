@@ -174,6 +174,10 @@ Insert the row number next to the contest you want to load (not the id): 1
 $ cmsRankingWebServer
 ```
 
+¡CUIDADO!: El número de competición que hay que pasarle a
+cmsResourceService es el número de fila que aparece en el listado a la
+izquierda, distinto del ID.
+
 El servidor en el que se ve el ranking está accesible por defecto en
 el puerto 8890 y el servidor al que se conectan los participantes en
 el puerto 8888.
@@ -189,6 +193,7 @@ cuando salimos del terminal:
 ```
 $ nohup cmsResourceService -a <<< '1' &
 $ nohup cmsRankingWebServer &
+$ nohup cmsAdminWebServer &
 ```
 
 ## Reinicio del ranking ##
@@ -215,8 +220,10 @@ y se vuelven a volcar todos los datos de la competición actual en el directorio
 
 ## Registrar y eliminar usuarios ##
 
-En la carpeta `utils` hay scripts para registrar, añadir a concurso y
-eliminar usuarios.
+En la carpeta `utils` de este repositorio hay scripts para registrar,
+añadir a concurso y eliminar usuarios. Están adaptados del repositorio
+[cms-utils](https://github.com/olimpiada-informatica/cms-utils) de la
+OIE.
 
 El fichero de usuarios debe llamarse `users.json` y debe contener
 todos los usuarios a añadir en formato JSON:
@@ -293,4 +300,4 @@ Por ejemplo, el comando:
 $ cmsDumpExporter -c 1
 ```
 
-exporta el concurso 1 en el directorio actual (en el fichero `dump_2021-12-17.tar.gz`).
+exporta el concurso con el identificador 1 en el directorio actual (en el fichero `dump_2021-12-17.tar.gz`).
