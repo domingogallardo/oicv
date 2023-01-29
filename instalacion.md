@@ -240,6 +240,13 @@ $ sudo systemctl stop nginx
 $ sudo systemctl start nginx
 ```
 
+Una vez que se ha puesto en marcha Nginx se puede acceder a los
+servicios en las siguientes URLs:
+
+- Juez: https://olimpiada.dominio.es/
+- Admin: https://olimpiada.dominio.es/aws
+- Ranking: https://olimpiada.dominio.es/rws
+
 ## Registrar y eliminar usuarios ##
 
 En la carpeta `utils` de este repositorio hay scripts para registrar,
