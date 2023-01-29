@@ -218,6 +218,28 @@ Al estar en marcha el `cmsResourceService`, éste reinicia el servicio de proxy
 y se vuelven a volcar todos los datos de la competición actual en el directorio
 `/var/local/lib/cms/ranking`.
 
+## Nginx ##
+
+Para configurar el acceso por https y mapear el acceso a los servicios
+de ranking y admin usamos Nginx. 
+
+Para instalar Nginx:
+
+```
+$ sudo apt-get install nginx
+```
+
+Adaptamos el [fichero de configuración](./utils/nginx.conf) y lo copiamos
+en  `/etc/nginx/nginx.conf` y copiamos los certificados en el
+directorio correspondiente.
+
+Para parar y poner en marcha nginx:
+
+```
+$ sudo systemctl stop nginx
+$ sudo systemctl start nginx
+```
+
 ## Registrar y eliminar usuarios ##
 
 En la carpeta `utils` de este repositorio hay scripts para registrar,
