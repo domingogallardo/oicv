@@ -70,8 +70,9 @@ donde poder enviar preguntas a los organizadores, unos enlaces con
 una breve documentación y una página de prueba, en la que podrás subir
 tus programas y comprobar su salida.
 
-Una vez pasada la pantalla de login, podrás ver todos los problemas
-disponibles. En el servidor de pruebas hay 4 problemas de ejemplo:
+<img src="imagenes/pagina-inicial.png" width="800px"/>
+
+En el servidor de pruebas hay 4 problemas de ejemplo:
 
 - Saludo
 - Primos
@@ -82,8 +83,6 @@ Los tres primeros son problemas de prueba muy sencillos para que puedas
 comprobar el funcionamiento del juez de evaluación. El último problema es más
 complicado, y ya tiene un nivel similar a los problemas que se presentan en la
 olimpiada.
-
-<img src="imagenes/pagina-inicial.png" width="800px"/>
 
 Pinchando en el enunciado del problema entrarás en la siguiente pantalla en la
 que podrás descargar el enunciado en forma de fichero PDF. Los problemas
