@@ -70,7 +70,10 @@ donde poder enviar preguntas a los organizadores, unos enlaces con
 una breve documentación y una página de prueba, en la que podrás subir
 tus programas y comprobar su salida.
 
-En el caso de la imagen sólo hay un ejercicio denominado `Primos`.
+Aunque en las siguientes imágenes aparece el ejercicio denominado `Primos` te
+recomendamos comenzar con el ejercicio más sencillo, el denominado `Saludo`. El
+proceso de descarga del enunciado y subida y ejecución del programa es
+exactamente el mismo que se muestra a continuación.
 
 <img src="imagenes/pagina-inicial.png" width="800px"/>
 
