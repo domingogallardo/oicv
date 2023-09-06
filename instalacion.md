@@ -240,6 +240,12 @@ $ sudo systemctl stop nginx
 $ sudo systemctl start nginx
 ```
 
+Para comprobar el estado de nginx:
+
+```
+$ sudo systemctl status nginx
+```
+
 Una vez que se ha puesto en marcha Nginx se puede acceder a los
 servicios en las siguientes URLs:
 
