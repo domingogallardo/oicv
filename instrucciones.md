@@ -70,16 +70,24 @@ donde poder enviar preguntas a los organizadores, unos enlaces con
 una breve documentación y una página de prueba, en la que podrás subir
 tus programas y comprobar su salida.
 
-Aunque en las siguientes imágenes aparece el ejercicio denominado `Primos` te
-recomendamos comenzar con el ejercicio más sencillo, el denominado `Saludo`. El
-proceso de descarga del enunciado y subida y ejecución del programa es
-exactamente el mismo que se muestra a continuación.
+Una vez pasada la pantalla de login, podrás ver todos los problemas
+disponibles. En el servidor de pruebas hay 4 problemas de ejemplo:
+
+- Saludo
+- Primos
+- OOIICCVV
+- Carrera
+
+Los tres primeros son problemas de prueba muy sencillos para que puedas
+comprobar el funcionamiento del juez de evaluación. El último problema es más
+complicado, y ya tiene un nivel similar a los problemas que se presentan en la
+olimpiada.
 
 <img src="imagenes/pagina-inicial.png" width="800px"/>
 
-Pinchando en el enunciado entrarás en la siguiente pantalla en la que
-podrás descargar un fichero PDF con el enunciado del problema. Los
-problemas tendrán varios apartados con una puntuación cada uno de ellos.
+Pinchando en el enunciado del problema entrarás en la siguiente pantalla en la
+que podrás descargar el enunciado en forma de fichero PDF. Los problemas
+tendrán varios apartados con una puntuación cada uno de ellos.
 
 <img src="imagenes/enunciado.png" width="800px"/>
 
@@ -93,7 +101,7 @@ que se lanzarán en el servidor para compilar los programas.
 
 Pinchando en la opción `Envíos` del enunciado accedes a la página para
 subir el fichero con el código fuente que resuelve el ejercicio. En
-este caso se muestra cómo se sube el fichero `primos.py`.
+este caso se muestra cómo se sube el fichero `saludo.py`.
 
 <img src="imagenes/subir-programa.png" width="800px"/>
 
@@ -135,3 +143,28 @@ Una vez subidos ambos ficheros, el programa se compila y se ejecuta en
 el servidor. Puedes comprobar el resultado descargándolo con el botón `Descargar`.
 
 <img src="imagenes/result-testing.png" width="800px"/>
+
+### Solución ###
+
+Para que te sea sencillo comenzar con un ejemplo que funciona correctamente, a
+continuación listamos un programa Python que soluciona correctamente el problema
+`Saludo`.
+
+Fichero **saludo.py**:
+
+```python
+# Leer n (cantidad de saludos) y k (indicador de si leer o no nombres)
+n, k = map(int, input().split())
+
+# Si k es 0, imprimir 'Hola OICV' n veces
+if k == 0:
+    for _ in range(n):
+        print("Hola OICV")
+
+# Si k es 1, leer nombres y saludar con cada nombre
+else:
+    for _ in range(n):
+        nombre = input().strip()  # Leer el nombre
+        print(f"Hola {nombre}")
+
+```
