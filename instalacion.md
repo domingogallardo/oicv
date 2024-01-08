@@ -179,11 +179,12 @@ cmsResourceService es el número de fila que aparece en el listado a la
 izquierda, distinto del ID.
 
 El servidor en el que se ve el ranking está accesible por defecto en
-el puerto 8890 y el servidor al que se conectan los participantes en
-el puerto 8888.
+el puerto 8890, el servidor al que se conectan los participantes en
+el puerto 8888 y el servidor de administración en el puerto 8889.
 
 - Ranking: <http://localhost:8890/Ranking.html>
 - Participantes: <http://localhost:8888>
+- Administración: <http://localhost:8889>
 
 ## Puesta en marcha (en background) ##
 
@@ -193,8 +194,10 @@ cuando salimos del terminal:
 ```
 $ nohup cmsResourceService -a <<< '1' &
 $ nohup cmsRankingWebServer &
-$ nohup cmsAdminWebServer &
 ```
+
+Al lanzar el comando `cmsResourceService` se pone en marcha tanto el servicio
+con la competición como el servicio de administración.
 
 ## Reinicio del ranking ##
 
